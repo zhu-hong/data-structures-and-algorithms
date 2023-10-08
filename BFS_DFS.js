@@ -31,7 +31,7 @@ function BFS(graph, s) {
 }
 
 console.log("BFS:")
-BFS(graph, "B")
+BFS(graph, "A")
 
 function DFS(graph, s) {
   const stack = []
@@ -53,4 +53,4 @@ function DFS(graph, s) {
 }
 
 console.log("DFS:")
-DFS(graph, "B")
+DFS(graph, "A")
